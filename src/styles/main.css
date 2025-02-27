@@ -1,0 +1,43 @@
+/* Main styles for the Temperature Dashboard application */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.chart {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-station {
+    margin-bottom: 15px;
+}

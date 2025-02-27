@@ -1,0 +1,19 @@
+temperature-dashboard
+├── src
+│   ├── components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── Sidebar.js
+│   │   └── TemperatureChart.js
+│   ├── data
+│   │   └── stations.json
+│   ├── styles
+│   │   └── main.css
+│   ├── utils
+│   │   └── dataProcessor.js
+│   ├── app.js
+│   └── index.html
+├── tests
+│   └── app.test.js
+├── package.json
+└── README.md
