@@ -48,6 +48,8 @@ ui <- fluidPage(
   # Header bar
   div(class = "header-bar",
       h1("Temperature in train stations around the globe", 
+         style = "text-align: center;"),
+		 h3("Created by team PICE for BST 236", 
          style = "text-align: center;")),
   
   # Main content
@@ -104,7 +106,7 @@ server <- function(input, output) {
       theme_minimal() +
       labs(x = "Station",
            y = "Temperature (°C)",
-           title = "Temperature Range by Station in degrees Farenheit\n
+           title = "Temperature Range by Station\n
 		   (min, mean, max)") +
       theme(
         plot.background = element_rect(fill = "white"),
